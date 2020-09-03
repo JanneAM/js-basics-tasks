@@ -9,12 +9,6 @@
  * */
 
 /**
- * You don't have to declare this variable outside loop.
- * It is enough when you declare inside loops condition "i=0"
- * You can test it by deleting "var i;"" row.
- * */
-
-/**
  *Task1: Change the loop so that it will log numbers between 1-10 (at the moment it logs 1-9)
  *Task2: Change the loop so that it logs every other number until it reaches number then (eg. 0,2,4,6,8,10)
  *Task3: Change the loop so that it logs numbers from 10-1
@@ -25,6 +19,13 @@
  * To reach number 10 with loop you must set condition "is less than or equals to" more info https://www.w3schools.com/js/js_comparisons.asp
  * REMEMBER! If you set conditions that can be never met the loop will be infinite and will most likely crash your browser.
  */
+
+
+/**
+ * You don't have to declare "i" variable outside loop.
+ * It is enough when you declare inside loop's condition "i=0"
+ * You can test it by deleting "var i;"" row.
+ * */
 
 var i;
 
