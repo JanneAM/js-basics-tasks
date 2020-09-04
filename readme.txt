@@ -6,5 +6,6 @@ There will be detailed instructions, tips and reading material commented to ever
 Tasks I have prepared so far are following:
 Task1 - For loop and operators
 Task2 - Modify  strings with operators
+task3 - Create a palindrome checker
 
 If you can't find this readme later from the files, remember to check you are on master branch!
