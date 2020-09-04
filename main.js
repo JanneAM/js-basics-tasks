@@ -14,7 +14,7 @@
  */
 
 /**Extra tips:
- * Change only code in "If()"" in order to get the code work as supposed.
+ * Change code only in "If()"" in order to get the code work as supposed.
  */
 
 var clickMe = document.getElementById("click-me");
@@ -46,7 +46,10 @@ function checkPalindrome() {
   if (string) {
     /**Put your result statement here ("It is a palindrome"). For help check what is inside else */
   } else {
-    /**else is part of if and does not need () or condition because it is run if the condition of if() is not met. */
+    /**else is part of if and does not need () or condition because it is run if the condition of if() is not met.
+     *
+     * result.setAttribute... is used to set the value in to the result input
+     */
     result.setAttribute("value", "It is not a palindrome!");
   }
 }
